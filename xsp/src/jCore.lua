@@ -120,7 +120,7 @@ function JoJo:showTouch(point, hid)
 end
 
 function JoJo:hideTouch(hid)
-    hideHUD(hid)
+   if hid then hideHUD(hid) end
 end
 
 function JoJo:freLogic(v)
